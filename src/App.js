@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+//import Card from './components/card.js';
+import Choices from './choices.json'
 
 class App extends Component {
   render() {
@@ -8,12 +10,14 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">The Memory Game</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+        <div className="react-space">
+            <p className="explain">Click on each image only once to win!</p>
+            <button className="start">Start</button>
+            </div>
+
+        </div>
     );
   }
 }
