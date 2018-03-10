@@ -1,0 +1,26 @@
+.navbar {
+    background: #59677f;
+    font-size: 25px;
+}
+#title {
+    text-align: center;
+    padding-top: 1%;
+}
+li {
+	display: inline-block;
+	padding: 26px 0;
+	width: 50%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+    margin-top: -8%;
+}
+
+a {
+	color: white;
+}
+
+    a:hover {
+        text-decoration: none;
+        color: #414a4c;
+    }
