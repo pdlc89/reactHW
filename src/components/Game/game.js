@@ -12,11 +12,29 @@ class Game extends Component {
         }
         this.handleClick = this.handleClick.bind(this);
     }
-    handleClick() {
+// this function handles the clicking of the picture
+    handleClick (value){
+        this.state.clicked.push(value)
         this.setState({
-            count: this.state.count + 1
+            count: this.state.count + 1,
+        
+    // if (choices.length != count) {
+    //     for (var j = 0; j < choices.length; j++) {
+    //         if (holder = choices[j]) {
+    //             lost();
+    //         }
+    //         else {
+    //             count: this.state.count + 1
+    //             restart();
+    //         }
+    //     }
+    // } else {
+    //     //you've won!
+    // }
+    
         });
-
+// this function will shuffle the images and  
+        console.log("the image id: ", this.state.clicked)
     }
 	render() {
 		return(
