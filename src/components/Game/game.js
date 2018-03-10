@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Card from '../Card/Card.js';
+import Card from '../Card';
 import Choices from '../../choices.json';
 
 export default class Game extends Component {
